@@ -184,6 +184,14 @@ body {
     /* position: relative; */
   }
 }
+@media (max-width: 450px)  {
+  .landing-page {
+    height: 150px;
+    background-image: url('../imgs/The Brothers1.png');
+    background-size: cover;
+    /* position: relative; */
+  }
+}
 .landing-page .overlay {
   background-color: rgba(0, 0, 0, .6);
   position: absolute;
