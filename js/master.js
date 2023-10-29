@@ -11,9 +11,7 @@ if (mainColors !== null) {
 
   // Remove Active Class From All Colors List Item
   document.querySelectorAll(".colors-list li").forEach(element => {
-
     element.classList.remove("active");
-
     // Add Active Class On Element With Data-Color === Local Storage Item
     if (element.dataset.color === mainColors) {
 
